@@ -6,10 +6,10 @@
 - CMD ["python", "app.py"]
 
 # For creating docker file
-- docker build -t <docker image name> .
+- docker build -t < docker image name> .
 
 # Stop dowcker container
-- docker stop <container id>
+- docker stop < Container-id>
 
 # checking which containers are running
 - docker ps
@@ -19,4 +19,4 @@
 - docker push <username of dockerhub/ image name>: latest
 
 # removing built docker image
-- docker rmi -f <image name>
+- docker rmi -f < image name>
